@@ -1,249 +1,355 @@
 <html>
-
-<head>
-  <meta name="description"
-    content="Tenemos todas las respuestas a tus consultas en nuestra web, también nos podes contactar por whatsapp">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="shortcut icon" href="img/logo-azul-sf.png" type="image/x-icon">
-  <title>FAQ</title>
-</head>
-<body>
-  <div class="bg-white">
-    <header class="relative isolate z-10 bg-white">
-      <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div class="flex lg:flex-1">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto" src="img/logo-azul-sf.png" alt="" />
-          </a>
-        </div>
-        <div class="flex lg:hidden">
-          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Open main menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-              aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-            </svg>
-          </button>
-        </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-          <a href="products.html" class="text-sm font-semibold leading-6 text-gray-900">Productos</a>
-          <a href="shipping.html" class="text-sm font-semibold leading-6 text-gray-900">Envios</a>
-          <a href="faq.html" class="text-sm font-semibold leading-6 text-gray-900">FAQ</a>
-          <a href="contact.html" class="text-sm font-semibold leading-6 text-gray-900">Contacto</a>
-        </div>
-      </nav>
-      <!-- Mobile menu, show/hide based on menu open state. -->
-      <div class="lg:hidden" role="dialog" aria-modal="true">
-        <!-- Background backdrop, show/hide based on slide-over state. -->
-        <div class="fixed inset-0 z-10"></div>
-        <div
-          class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div class="flex items-center justify-between">
-            <a href="#" class="-m-1.5 p-1.5">
+  <head>
+    <meta
+      name="description"
+      content="Tenemos todas las respuestas a tus consultas en nuestra web, también nos podes contactar por whatsapp"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="img/logo-azul-sf.png" type="image/x-icon" />
+    <title>FAQ</title>
+  </head>
+  <body>
+    <div class="bg-white">
+      <header class="relative isolate z-10 bg-white">
+        <nav
+          class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+          aria-label="Global"
+        >
+          <div class="flex lg:flex-1">
+            <a href="index.html" class="-m-1.5 p-1.5">
               <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+              <img class="h-8 w-auto" src="img/logo-azul-sf.png" alt="" />
             </a>
-            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-              <span class="sr-only">Close menu</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </div>
+          <div class="flex lg:hidden">
+            <button
+              type="button"
+              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
               </svg>
             </button>
           </div>
-          <div class="mt-6 flow-root">
-            <div class="-my-6 divide-y divide-gray-500/10">
-              <div class="space-y-2 py-6">
-                <a href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
-                <a href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
-                <a href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
-                <a href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+          <div class="hidden lg:flex lg:gap-x-12">
+            <a
+              href="products.html"
+              class="text-sm font-semibold leading-6 text-gray-900"
+              >Productos</a
+            >
+            <a
+              href="shipping.html"
+              class="text-sm font-semibold leading-6 text-gray-900"
+              >Envios</a
+            >
+            <a
+              href="faq.html"
+              class="text-sm font-semibold leading-6 text-gray-900"
+              >FAQ</a
+            >
+            <a
+              href="contact.html"
+              class="text-sm font-semibold leading-6 text-gray-900"
+              >Contacto</a
+            >
+          </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <div class="lg:hidden" role="dialog" aria-modal="true">
+          <!-- Background backdrop, show/hide based on slide-over state. -->
+          <div class="fixed inset-0 z-10"></div>
+          <div
+            class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+          >
+            <div class="flex items-center justify-between">
+              <a href="index.html" class="-m-1.5 p-1.5">
+                <span class="sr-only">Your Company</span>
+                <img class="h-8 w-auto" src="img/logo-azul-sf.png" alt="" />
+              </a>
+              <button
+                type="button"
+                class="-m-2.5 rounded-md p-2.5 text-gray-700"
+              >
+                <span class="sr-only">Close menu</span>
+                <svg
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="mt-6 flow-root">
+              <div class="-my-6 divide-y divide-gray-500/10">
+                <div class="space-y-2 py-6">
+                  <a
+                    href="#"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    >Productos</a
+                  >
+                  <a
+                    href="#"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    >Envios</a
+                  >
+                  <a
+                    href="#"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    >FAQ</a
+                  >
+                  <a
+                    href="#"
+                    class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    >Contacto</a
+                  >
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <div class="relative isolate overflow-hidden bg-gray-900">
-      <div class="bg-white">
-        <div class="mx-auto max-w-7xl divide-y divide-gray-900/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-          <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">
-            Preguntas frecuentes
-          </h2>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                Dónde estamos?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  CASA CENTRAL: Estamos en Héctor Gutierrez Ruiz 937.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                Tienen envíos en Montevideo?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  En Delta podemos enviarte la compra en Montevideo a través de cadetería privada. El costo del envío es
-                  $180, y la demora es de aproximadamente 2 días luego de confirmado el pedido.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                Tienen envíos al interior?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Al interior enviamos por DAC. DAC pasa diariamente por nuestra tienda a recolectar los paquetes del
-                  interior aproximadamente a las 16 hrs. El plazo de entrega que DAC ofrece es máximo 48 hrs. En fechas
-                  normales entrega a las 24hrs. Vísperas de fechas especiales puede demorar un poco más de tiempo. El
-                  costo del envío será abonado en el destino y se corresponde a las tarifas que DAC tiene estipuladas.
-                  De querer utilizar otros servicios de paquetería, podemos hacerlo. Pero debemos cobrar un envío ($
-                  240) a la empresa de paquetería, ya que sólo tenemos convenio con DAC.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿Todo lo que muestran dispone de stock?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Todos los ítems están en stock, aunque puede suceder que un producto se agote en el período de tiempo
-                  en el que estás realizando la compra. En este caso nos comunicaremos contigo. Debes tener en cuenta
-                  que, en el tiempo que te lleva realizar la compra, otro cliente puede estar comprando el mismo
-                  artículo y agotarlo.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿A qué zonas realizan envíos?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Realizamos envíos a todos los puntos del Uruguay a través de DAC.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿En qué horarios entrega la agencia?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Las entregas de pedidos se realizan de lunes a viernes en Montevideo a partir de las 17 a 22 hs, y en
-                  el interior de lunes a viernes a partir de las 9am. No se entregan pedidos los domingos ni feriados.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿Puedo programar la entrega del envío?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Las entregas no pueden ser programadas. Podes realizar el seguimiento de tu pedido online para
-                  disponer de un estimado de fecha de entrega.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿Se necesita firmar la recepción del pedido?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Todos los pedidos deben ser firmados.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿Puede recibir el pedido otro persona por mí?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  El pedido puede recibirlo cualquier persona mayor a 18 años que se encuentre en el domicilio acordado
-                  presentando su CI y coordinado previamente ya sea en el apartado notas o avisando al equipo de
-                  DeltaTodos los pedidos deben ser firmados.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿Puedo cambiar la dirección de entrega?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Solo se envía a una dirección por pedido. Durante el proceso de compra puedes elegir la dirección con
-                  la que te registraste o ingresar una nueva. Si quieres modificar la dirección de entrega una vez
-                  finalizado el pedido, envíanos un mail a delta.uy@gmail.com indicando el número de pedido y
-                  solicitando el cambio de dirección de entrega. También puedes hacerlo llamándonos al 091 000 000 o por
-                  Whatsapp. Si el pedido ya fue despachado, no será posible el cambio.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿Cuándo llega mi pedido?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Todos nuestros envíos tienen una demora de entre 2 a 4 días hábiles después de haber realizado el
-                  pedido y confirmado el pago. Para envíos en Montevideo, si seleccionas envío en el día tu pedido
-                  llegará dentro de las siguientes 24 hs hábiles a la compra.
-                </p>
-              </dd>
-            </div>
-          </dl>
-          <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
-            <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
-              <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                ¿A quién puedo dirigirme si tengo alguna duda?
-              </dt>
-              <dd class="mt-4 lg:col-span-7 lg:mt-0">
-                <p class="text-base leading-7 text-gray-600">
-                  Podes enviarnos tus consultas al mail delta.uy@gmail.com o llamarnos al 091 000 000 de lunes a viernes
-                  de 10 hs a 18 hs y sábados de 10 a 13:30 hs.
-                </p>
-              </dd>
-            </div>
-          </dl>
+      <div class="relative isolate overflow-hidden bg-gray-900">
+        <div class="bg-white">
+          <div
+            class="mx-auto max-w-7xl divide-y divide-gray-900/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40"
+          >
+            <h2
+              class="text-2xl font-bold leading-10 tracking-tight text-gray-900"
+            >
+              Preguntas frecuentes
+            </h2>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  Dónde estamos?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    CASA CENTRAL: Estamos en Héctor Gutierrez Ruiz 937.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  Tienen envíos en Montevideo?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    En Delta podemos enviarte la compra en Montevideo a través
+                    de cadetería privada. El costo del envío es $180, y la
+                    demora es de aproximadamente 2 días luego de confirmado el
+                    pedido.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  Tienen envíos al interior?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Al interior enviamos por DAC. DAC pasa diariamente por
+                    nuestra tienda a recolectar los paquetes del interior
+                    aproximadamente a las 16 hrs. El plazo de entrega que DAC
+                    ofrece es máximo 48 hrs. En fechas normales entrega a las
+                    24hrs. Vísperas de fechas especiales puede demorar un poco
+                    más de tiempo. El costo del envío será abonado en el destino
+                    y se corresponde a las tarifas que DAC tiene estipuladas. De
+                    querer utilizar otros servicios de paquetería, podemos
+                    hacerlo. Pero debemos cobrar un envío ($ 240) a la empresa
+                    de paquetería, ya que sólo tenemos convenio con DAC.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿Todo lo que muestran dispone de stock?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Todos los ítems están en stock, aunque puede suceder que un
+                    producto se agote en el período de tiempo en el que estás
+                    realizando la compra. En este caso nos comunicaremos
+                    contigo. Debes tener en cuenta que, en el tiempo que te
+                    lleva realizar la compra, otro cliente puede estar comprando
+                    el mismo artículo y agotarlo.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿A qué zonas realizan envíos?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Realizamos envíos a todos los puntos del Uruguay a través de
+                    DAC.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿En qué horarios entrega la agencia?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Las entregas de pedidos se realizan de lunes a viernes en
+                    Montevideo a partir de las 17 a 22 hs, y en el interior de
+                    lunes a viernes a partir de las 9am. No se entregan pedidos
+                    los domingos ni feriados.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿Puedo programar la entrega del envío?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Las entregas no pueden ser programadas. Podes realizar el
+                    seguimiento de tu pedido online para disponer de un estimado
+                    de fecha de entrega.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿Se necesita firmar la recepción del pedido?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Todos los pedidos deben ser firmados.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿Puede recibir el pedido otro persona por mí?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    El pedido puede recibirlo cualquier persona mayor a 18 años
+                    que se encuentre en el domicilio acordado presentando su CI
+                    y coordinado previamente ya sea en el apartado notas o
+                    avisando al equipo de DeltaTodos los pedidos deben ser
+                    firmados.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿Puedo cambiar la dirección de entrega?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Solo se envía a una dirección por pedido. Durante el proceso
+                    de compra puedes elegir la dirección con la que te
+                    registraste o ingresar una nueva. Si quieres modificar la
+                    dirección de entrega una vez finalizado el pedido, envíanos
+                    un mail a delta.uy@gmail.com indicando el número de pedido y
+                    solicitando el cambio de dirección de entrega. También
+                    puedes hacerlo llamándonos al 091 000 000 o por Whatsapp. Si
+                    el pedido ya fue despachado, no será posible el cambio.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿Cuándo llega mi pedido?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Todos nuestros envíos tienen una demora de entre 2 a 4 días
+                    hábiles después de haber realizado el pedido y confirmado el
+                    pago. Para envíos en Montevideo, si seleccionas envío en el
+                    día tu pedido llegará dentro de las siguientes 24 hs hábiles
+                    a la compra.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+            <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
+              <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                <dt
+                  class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5"
+                >
+                  ¿A quién puedo dirigirme si tengo alguna duda?
+                </dt>
+                <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                  <p class="text-base leading-7 text-gray-600">
+                    Podes enviarnos tus consultas al mail delta.uy@gmail.com o
+                    llamarnos al 091 000 000 de lunes a viernes de 10 hs a 18 hs
+                    y sábados de 10 a 13:30 hs.
+                  </p>
+                </dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
